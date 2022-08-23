@@ -81,6 +81,11 @@ app.get('/getAll', async (req, res) => {
 
 })
 
+app.get('/', (req, res) => {
+
+    res.send('Está funcionando')
+})
+
 
 
 
